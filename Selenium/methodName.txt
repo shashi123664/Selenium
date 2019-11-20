@@ -1,0 +1,11 @@
+ 1) get(args)-args type(String)-return (void)
+ 2) clear()-return (void)
+ 3) quit()-return (void)
+ 4) navigate().to(args)-return to() (void)
+ 5) navigate().back()
+ 6) navigate().refresh();
+ 7) navigate().forward();
+ 8) manage().window().fullScreen()-return manage() (options),return window()(options),return fullScreen() (void)
+ 9) getwindowHandle()-return (String)
+ 10) getWindowsHandles()-return (Set<String>)
+ 11) switchto().window(referenceVariable).close();
